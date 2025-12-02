@@ -1,0 +1,6 @@
+[package]
+name = "zkvault-prover"
+version = "0.1.0"
+type = "lib"
+
+[dependencies]

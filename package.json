@@ -1,0 +1,27 @@
+{
+  "name": "zkvault-monorepo",
+  "version": "1.0.0",
+  "description": "A production-grade monorepo for zkVault SDK with Solana integration, ZK circuits, and more.",
+  "private": true,
+  "workspaces": [
+    "sdk/*",
+    "cli/*",
+    "examples/*",
+    "docs"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces",
+    "clean": "npm run clean --workspaces"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
